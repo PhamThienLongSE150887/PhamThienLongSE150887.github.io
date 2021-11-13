@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+.listproductscontainer
+{
+	width:1500px;
+	height:464px;
+	margin: 40px auto;
+	display: flex;
+}
+.imagenewproduct
+{
+	width:1500px;
+	height:464px;
+	display: flex;
+}
+.imgproduct1
+{
+	width:304px;
+	height:394px;
+	margin: auto 0 auto 0px;
+}
+.imgproduct2
+{
+	width:304px;
+	height:394px;
+	margin: auto 0 auto 90px;
+}
+.buttonright
+{
+	width:129px;
+	height:150px;
+	margin: auto 0 auto 61px;
+}
+.pictureproduct
+{
+	width:304px;
+	height:394px;
+	margin:0 auto;
+}
+.nameprice
+{
+	width:285px;
+	height:85px;
+	margin:10px auto 0;
+	font-size: 18px;
+	color: var(--text-color);
+	font-weight: 600;
+	text-align: center;
+	line-height: 30px;
+}
+.price
+{
+	color: var(--primary-color);
+	font-size: 24px;
+	margin: 10px auto auto auto;
+}
+.imageofproduct
+{
+	width:304px;
+	height:285px;
+	margin: 0 auto 30px;
+}
+.pagesnewsbutton
+{
+	width:284px;
+	height:36px;
+	margin: 100px 210px 0 auto;
+	display: flex;
+}
+.buttonleftnews
+{
+	width:29px;
+	height:29px;
+	margin: 4px 0 2px ;
+}
+.newpagesbutton
+{
+	width:36px;
+	height:36px;
+	border: solid 1px var(--primary-color);
+	border-radius: 10px;
+	margin: auto 0 auto 6px;
+}
+.textpage
+{
+	font-size: 13px;
+	color: var(--text-color);
+	text-align: center;
+	margin: 9px;
+}
+.newpagesbutton2
+{
+	width:36px;
+	height:36px;
+	border: solid 1px var(--primary-color);
+	border-radius: 10px;
+	margin: auto 0 auto 12px;
+}
+.newpagesbutton3
+{
+	width:27px;
+	height:6px;
+	margin: auto 0 0 12px;
+	display: flex;
+}
+.circlepage
+{
+	width:6px;
+	height:6px;
+	border-radius: 50%;
+	background-color: var(--primary-color);
+	margin: auto 4px 0 0;
+}
+.circlepage2
+{
+	width:6px;
+	height:6px;
+	border-radius: 50%;
+	background-color: var(--primary-color);
+	margin: auto 0 0;
+}
+.buttonrightnews
+{
+	width:29px;
+	height:29px;
+	margin: 4px 0px 2px 6px;
+}
+.footer
+{
+	width: 1920px;
+	height: 450px;
+	background-color: #1C2A3D;
+	margin: 120px auto 0;
+	display: flex;
+}
+.imgfooter
+{
+	width:472px;
+	height: 293px;
+	margin: 100px auto 0 ;
+}

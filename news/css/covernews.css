@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+
+.covercontainer
+{
+	width:1758px;
+	height:610px;
+	margin: 270px auto 0px;
+	display: flex;
+}
+.buttonleft
+{
+	width:129px;
+	height:150px;
+	margin:auto 0;
+}
+.buttonright
+{
+	width:129px;
+	height:150px;
+	margin: auto 0;
+}
+.covernews
+{
+	width:1500px;
+	height:610px;
+	margin: auto 0;
+	display: flex;
+}
+.news1
+{
+	width:608px;
+	height: 542px;
+	background-color: black;
+	margin: auto 0 auto 36px;
+	border-radius: 25px;
+	display: flex;
+}
+.covernews
+{
+	background-image:url("../../intro/images/Rectangle 47.png");
+}
+.newscontainer2
+{
+	width:284px;
+	height:542px;
+
+	margin: auto 0 auto 25px;
+}
+.buttonbottom
+{
+	width:162px;
+	height:76px;
+	margin: auto;
+}
+.textbottom
+{
+	width:162px;
+	height:30px;
+	color: var(--primary-color);
+	font-size: 24px;
+	text-align: center;
+	margin: 10px auto 0;
+}
+.imgbottom
+{
+	width:36px;
+	height:38px;
+	margin:0 auto;
+}
+.news2
+{
+	width:284px;
+	height:260px;
+	background-color: black;
+	border-radius: 25px;
+	display: flex;
+}
+.news3
+{
+	width:284px;
+	height:260px;
+	background-color: black;
+	border-radius: 25px;
+	margin:22px 0 0;
+	display: flex;
+}
+.pagesbuttons
+{
+	width:235px;
+	height:20px;
+	margin: 40px auto;
+	display: flex;
+}
+.pagesicon
+{
+	width:20px;
+	height:20px;
+	border-radius: 50%;
+	border: solid 1px var(--primary-color);
+	margin: auto 0 0 15px;
+}
+.pagesicon2
+{
+	width:20px;
+	height:20px;
+	border-radius: 50%;
+	border: solid 1px var(--primary-color);
+	background-color: var(--primary-color);
+	margin:auto 0 0 15px;
+}
+.news1
+{
+	background: url("../../intro/images/Rectangle 51.png")
+}
+.news2
+{
+	background: url("../../intro/images/Rectangle 54.png")
+}
+.news4
+{
+	width:284px;
+	height:260px;
+	background-color: black;
+	border-radius: 25px;
+	display: flex;
+}
+.news5
+{
+	width:284px;
+	height:260px;
+	background-color: black;
+	border-radius: 25px;
+	margin:22px 0 0;
+	display: flex;
+}
+.news3
+{
+	background:url("../../intro/images/Rectangle 52.png")
+}
+.news4
+{
+	background: url("../../intro/images/Group 158.png")
+}
+.news5
+{
+	background: url("../../intro/images/Rectangle 56.png")
+}
+.titlenews1
+{
+	width:574px;
+	height:216px;
+	text-align: left;
+	color: var(--text-color);
+	margin: auto 10px 20px 20px;
+	font-size: 18px;
+}
+.titlename
+{
+	font-size: 36px;
+	font-weight: 600;
+}
+.titlenews2
+{
+	width:257px;
+	height:80px;
+	margin: auto 15px 10px auto;
+	font-size: 14px;
+	color: var(--text-color);
+	text-align: right;
+}
+.titlename2
+{
+	font-size: 18px;
+	font-weight: 600;
+}

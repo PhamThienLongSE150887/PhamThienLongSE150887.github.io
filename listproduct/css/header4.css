@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--background-color);
+}
+.header-container {
+    padding-top: 44px;
+    padding-bottom: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo {
+    width: 102px;
+}
+.header-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-menu {
+    display: flex;
+    align-items: center;
+    margin-right: 216px;
+}
+.menu-item {
+    display: inline-block;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 5px 10px; 
+    min-width: 163px;
+    padding: 0.75rem;
+    box-sizing: border-box;
+}
+.header-menu .active {
+    border-bottom: 2px solid var(--primary-color);
+}
+.header-icon-list {
+    display: flex;
+    align-items: center;
+}
+.header-icon-list a {
+    display: block;
+}
+.header-icon:first-child {
+    margin-right: 40px;
+}
+.header-auth {
+    position: relative;
+}
+.header-auth-list {
+    position: absolute;
+    right: 100%;
+    top: 100%;
+    border: solid 2px var(--primary-color);
+    border-radius: 25px 0px 25px 25px;
+}

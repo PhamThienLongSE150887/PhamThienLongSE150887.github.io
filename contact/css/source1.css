@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+button {
+    outline: none;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+:root {
+    --background-color: #001427;
+    --primary-color: #F4D58D;
+    --text-color: #FFF;
+    --grey-color: #C4C4C4;
+}
+@font-face {
+    font-family: "UTM Davida";
+    src: url("/fonts/UTM\ Davida.ttf") format("ttf")}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--background-color);
+}
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'UTM Davida';
+    color: var(--primary-color);
+    margin: 0;
+}

@@ -1,0 +1,112 @@
+.product-present {
+    padding-top: 270px;
+    padding-bottom: 3rem;
+}
+.product-section {
+    margin: 0 61px;
+    box-sizing: border-box;
+}
+.product-path {
+    color: var(--primary-color);
+    font-size: 24px;
+    margin-bottom: 28px;
+    font-weight: 500;
+}
+.product-detail-path {
+    margin: 0 1.5rem;
+    cursor: pointer;
+}
+.product-detail {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4.5rem;
+}
+.product-images {
+    flex-basis: 51%;
+    min-height: 100px;
+}
+.product-main-img {
+    height: 462px;
+    background-color: var(--grey-color);
+}
+.product-list-img {
+    display: flex;
+    margin: 0 -10px;
+}
+.product-item-img {
+    flex-basis: calc(25% - 20px);
+    height: 104px;
+    background-color: var(--grey-color);
+    margin: 18px 10px;
+}
+.product-info {
+    flex-basis: 45%;
+}
+.product-name {
+    margin-top: 1.5rem;
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 72px;
+    font-family: 'Montserrat';
+}
+.product-content {
+    font-size: 24px;
+    margin: 1.5rem 0;
+}
+.product-price {
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 1.25rem 0;
+}
+.product-more {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.75rem;
+}
+.product-more .product-content {
+    margin: 0;
+}
+.product-icon-list {
+    display: flex;
+}
+.product-icon-item {
+    width: 53px;
+}
+.product-icon-item:not(:first-child) {
+    margin-left: 18px;
+}
+.rate-list {
+    margin: 0 0.5rem;
+}
+.product-icon-rate {
+    width: 38px;
+}
+.product-title {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text-color);
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.product-describe {
+    background-color: #6D0500;
+    margin: 0 -61px 2rem;
+    padding: 54px 61px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+.product-statistics {
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    border-collapse: collapse;
+    font-size: 24px;
+}
+.product-statistics td {
+    border: 1px solid var(--text-color);
+    padding: 1rem 40px;
+    min-width: 335px;
+    box-sizing: border-box;
+}

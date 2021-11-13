@@ -1,0 +1,154 @@
+.manage-section {
+    padding-top: 245px;
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    min-height: 1080px;
+}
+.manage-menu {
+    flex-basis: 30%;
+    margin-top: 110px;
+}
+.manage-form-container {
+    flex-basis: 45%;
+}
+.manage-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 65px;
+    color: var(--text-color);
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+.manage-title-small {
+    font-size: 3rem;
+}
+.manage-list {
+    padding-left: 60px;
+}
+.manage-item {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin: 1rem 0;
+    text-transform: uppercase;
+}
+.manage-list .active {
+    color: #708D81;
+}
+.manage-form {
+    display: flex;
+    flex-direction: column;
+}
+.manage-form-title {
+    font-size: 55px;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+.manage-input {
+    margin-bottom: 1rem;
+    position: relative;
+}
+.d-flex-col .manage-input {
+    margin-bottom: 0;
+}
+.manage-label {
+    font-weight: 700;
+    font-size: 24px;
+}
+.manage-btns {
+    display: flex;
+    justify-content: flex-end;
+}
+.manage-btn {
+    min-width: 142px;
+    box-sizing: border-box;
+    padding: 0.85rem 2rem;
+    border: 3px solid var(--primary-color);
+    color: var(--text-color);
+}
+.manage-btn:not(:first-child) {
+    margin-left: 2.5rem;
+}
+.select-container {
+    display: flex;
+    margin-bottom: 1rem;
+}
+.manage-select {
+    width: 142px;
+}
+.manage-select-full {
+    background-position: 97% 50%;
+}
+.manage-select:not(:last-child) {
+    margin-right: 2.5rem;
+}
+#card-date {
+    max-width: 180px;
+    margin-bottom: 0.5rem;
+}
+#card-number {
+    width: 100%;
+    box-sizing: border-box;
+}
+#card-number-container {
+    margin-left: 2.5rem;
+    flex-grow: 1;
+}
+.orders-container {
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.order-list {
+    display: flex;
+    margin: 5rem 0;
+    justify-content: space-between;
+}
+.order-item {
+    flex-basis: 45%;
+}
+.order-id {
+    font-size: 24px;
+}
+.order-timeline {
+    margin: 4.25rem 0 1rem;
+    padding-left: 3rem;
+    text-align: center;
+}
+.order-stage {
+    position: relative;
+}
+.order-stage::before {
+    position: absolute;
+    content: '';
+    width: 18px;
+    height: 18px;
+    background-color: #6D0500;
+    border-radius: 50%;
+    top: 10%;
+    left: 0;
+    z-index: 2;
+}
+.order-stage:not(:last-child) {
+    padding-bottom: 36px;
+}
+.order-stage:not(:last-child)::after {
+    position: absolute;
+    content: '';
+    top: 18px;
+    left: 8px;
+    height: 100%;
+    width: 1px;
+    background-color: var(--primary-color);
+}
+.order-status {
+    font-size: 1.5rem;
+}
+.order-time {
+    font-size: 18px;
+}

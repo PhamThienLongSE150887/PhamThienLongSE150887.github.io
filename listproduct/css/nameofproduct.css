@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+.nameofproduct
+{
+	width: 600px;
+	height: 64px;
+	margin: 250px auto 70px;
+}
+.textnameofproduct
+{
+	font-size: 48px;
+	font-weight: 500;
+	color: var(--primary-color);
+	text-align: center;
+}

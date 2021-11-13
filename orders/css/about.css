@@ -1,0 +1,30 @@
+.about-section {
+    padding: 260px 0;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.about-content {
+    margin-top: 7rem;
+    flex-basis: 40%;
+}
+.about-title {
+    color: var(--primary-color);
+    font-size: 3.5rem;
+    margin: 1.5rem 0;
+}
+.about-info {
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+.about-brand {
+    flex-basis: 53%;
+}
+.about-logo {
+    width: 368px;
+    margin: 0 auto;
+}
+.about-brand h1{
+    font-size: 9rem;
+    text-align: center;
+}

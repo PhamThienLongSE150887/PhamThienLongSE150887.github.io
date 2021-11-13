@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+.content-container1
+{
+	width:1758px;
+	height:635px;
+	margin: 40px auto 0;
+	position: relative;
+}
+.chevron-left
+{
+	position: absolute;
+	width: 129px;
+	height: 150px;
+	transform: translateY(-30%);
+	top: 50%;
+
+}
+.chevron-right
+{
+	position: absolute;
+	width: 129px;
+	height: 150px;
+	transform: translateY(-30%);
+	top: 50%;
+	right: 0;	
+}
+.picturelohoa
+{
+	width:410px;
+	
+	margin: 0px 0 0 328.5px;
+}
+.content1
+{
+	width:608px;
+	height:270px;
+	margin-left: 800px;
+	position: absolute;
+	transform: translateY(-30%);
+	top: 50%;
+	
+}
+.contentmain
+{
+	width:608px;
+	height:181px;
+
+}
+.content-title
+{
+	width:430px;
+	height:70px;
+	display: flex;
+	
+
+}
+.texttitle
+{
+	font-size: 23px;
+	margin: auto 0;
+	
+}
+.contentsmall
+{
+	width:608px;
+	height: 72px;
+
+}
+.textcontent
+{
+	font-size: 13px;
+	color: var(--text-color);
+}
+.buttoncontent
+{
+	width:475px;
+	height:69px;
+	display: flex;
+	
+}
+.button1
+{
+	width:185px;
+	height:63px;
+	border: 2px solid var(--primary-color);
+	border-radius: 15px;
+	margin: auto 47px 0 0;
+	display: flex;
+
+}
+.button2
+{
+	width:243px;
+	height:63px;
+	border: 2px solid var(--primary-color);
+	border-radius: 15px;
+	display: flex;
+
+}
+.button-content
+{
+	color: var(--primary-color);
+	font-size: 24px;
+	margin: AUTO;
+}
+.pagesbuttons
+{
+	width:210px;
+	height:20px;
+	margin: 40px auto;
+	display: flex;
+}
+.pagesicon
+{
+	width:20px;
+	height:20px;
+	border-radius: 50%;
+	border: solid 1px var(--primary-color);
+	margin: auto 0 0 15px;
+}
+.pagesicon2
+{
+	width:20px;
+	height:20px;
+	border-radius: 50%;
+	background-color: var(--primary-color);
+	border: solid 1px var(--primary-color);
+	margin:auto 0;
+}
